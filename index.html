@@ -8,9 +8,7 @@
 </head>
 <body>
     <header class="main-header">
-        <div class="main-logo">
-            <h2>Logo</h2>
-        </div>
+        <div class="main-logo"><img src="travel-logo.jpg" alt="logo" width="75px"></div>
         <nav class="menu">
             <a href="nanti" target="_blank">Home</a>
             <a href="nanti "target="_blank">Our Package</a>
@@ -25,24 +23,165 @@
         </header>
         <!--Konten Banner Autoslide-->
         <Article class="main-article">
-            <section>
-                <h2>Banner Autoslide</h2>
+            <section class="container-banner">
+                <div class="banner"> </div>
+                <div>
+                    <p class="penjelasan">"liburanku menjadi sangat mantep"</p>
+                </div>
+                <div class="profile-container">
+                    <div class="avatar">
+                        FH
+                    </div>
+                    <div class="text-container">
+                        <p class="name">Rahmat Illahi</p>
+                        <p class="subtitle">Bapak2 Suka Mancing, 38</p>
+                    </div>
+                </div>
+                </div>
             </section>
-            <section>
+            <section class="contactus">
                 <!--Contact US-->
-                <h2>Form Contact Us</h2>
+                <h2>Contact Us</h2>
+                <p>sales akan menghubungi anda 1x24 jam setelah data kami terima</p>
+                <form>
+                    <div>
+                        <label for="fname">Your Name : </label>
+                        <br>
+                        <input type="text" id="fname" name="fname" placeholder="First and Last Name">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">Email Address : </label>
+                        <br>
+                        <input type="text" id="email" name="email" placeholder="example@gmail.com">
+                    </div>
+                    <br>
+                    <div class="interest">
+                        <label for="interest">What Are You Interested in? </label>
+                        <br>
+                        <input type="text" id="email" name="email" placeholder="example@gmail.com">
+                    </div>
+                    <br>
+                    <div>
+                        <select name="interest" id="Select Option">
+                            <option value="1" >Fishing </option>
+                            <option value="2">Hiking</option>
+                            <option value="3">Diving</option>
+                            <option value="4">Overthinking</option>
+                    </select>
+                    </div>
+                    <br>
+                    <div class="tombol">
+                        <button>Send</button>
+                    </div>
             </section>
         </Article>
+        <div class="features-list">
+            <h4>Apa saja benefit yang didapatkan jika menggunakan travel kami</h4>
+            <div class="feature-item">
+                <div class="number-circle">1</div>
+                <p class="feature-text">Makan Gratis selama Perjalanan.</p>
+            </div>
+            
+            <div class="feature-item">
+                <div class="number-circle">2</div>
+                <p class="feature-text">Guide Profesional yang sudah ditraining</p>
+            </div>
+            
+            <div class="feature-item">
+                <div class="number-circle">3</div>
+                <p class="feature-text">Asuransi Perjalanan agar anda tidak Worry</p>
+            </div>
+        </div>
         <article>
             <!--Konten Our Package-->
             <header class="second-article">
                 <h1>Our Package</h1>
             </header>
+            <section class="konten-package">
+                <div class="grid-container">
+                    <!-- Bali Card -->
+                    <div class="feature-card">
+                        <div class="icon-container light">
+                            <svg width="24" height="24" viewBox="0 0 24 24">
+                                <path d="M12 3a1 1 0 0 1 .707.293l2 2a1 1 0 0 1-1.414 1.414L12 5.414l-1.293 1.293a1 1 0 0 1-1.414-1.414l2-2A1 1 0 0 1 12 3zm0 15a1 1 0 0 1 .707.293l2 2a1 1 0 0 1-1.414 1.414L12 20.414l-1.293 1.293a1 1 0 0 1-1.414-1.414l2-2A1 1 0 0 1 12 18z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Bali</h3>
+                        <p class="feature-description">Travel dan wisata di Bali, kunjungi cagar budaya dan kuliner yang menarik</p>
+                    </div>
+            
+                    <!-- Japan Card -->
+                    <div class="feature-card">
+                        <div class="icon-container light">
+                            <svg width="24" height="24" viewBox="0 0 24 24">
+                                <path d="M12 3a1 1 0 0 1 .707.293l2 2a1 1 0 0 1-1.414 1.414L12 5.414l-1.293 1.293a1 1 0 0 1-1.414-1.414l2-2A1 1 0 0 1 12 3zm0 15a1 1 0 0 1 .707.293l2 2a1 1 0 0 1-1.414 1.414L12 20.414l-1.293 1.293a1 1 0 0 1-1.414-1.414l2-2A1 1 0 0 1 12 18z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Makassar</h3>
+                        <p class="feature-description">Travel dan wisata di Makassar, Mari kita makan coto dan palu basa</p>
+                    </div>
+            
+                    <!-- Singapore Card -->
+                    <div class="feature-card">
+                        <div class="icon-container light">
+                            <svg width="24" height="24" viewBox="0 0 24 24">
+                                <path d="M12 3a1 1 0 0 1 .707.293l2 2a1 1 0 0 1-1.414 1.414L12 5.414l-1.293 1.293a1 1 0 0 1-1.414-1.414l2-2A1 1 0 0 1 12 3zm0 15a1 1 0 0 1 .707.293l2 2a1 1 0 0 1-1.414 1.414L12 20.414l-1.293 1.293a1 1 0 0 1-1.414-1.414l2-2A1 1 0 0 1 12 18z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Labuan Bajo</h3>
+                        <p class="feature-description">Travel dan wisata di Labuan Bajo, Diving bersama manta ray dan hiking pulau Padar!</p>
+                    </div>
+            
+                    <!-- Bandung Card -->
+                    <div class="feature-card">
+                        <div class="icon-container star">
+                            <svg width="24" height="24" viewBox="0 0 24 24">
+                                <path d="M12 2l2.4 7.4h7.6l-6 4.6 2.3 7.2-6.3-4.8-6.3 4.8 2.3-7.2-6-4.6h7.6z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Bandung</h3>
+                        <p class="feature-description">Travel dan wisata di Bandung, Tuang Seblak jeung Batagor!</p>
+                    </div>
+            
+                    <!-- Surabaya Card -->
+                    <div class="feature-card">
+                        <div class="icon-container star">
+                            <svg width="24" height="24" viewBox="0 0 24 24">
+                                <path d="M12 2l2.4 7.4h7.6l-6 4.6 2.3 7.2-6.3-4.8-6.3 4.8 2.3-7.2-6-4.6h7.6z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Mentawai</h3>
+                        <p class="feature-description">Travel dan wisata di Mentawai, Surganya pantai dan Surfing!</p>
+                    </div>
+            
+                    <!-- Third Feature Card -->
+                    <div class="feature-card">
+                        <div class="icon-container star">
+                            <svg width="24" height="24" viewBox="0 0 24 24">
+                                <path d="M12 2l2.4 7.4h7.6l-6 4.6 2.3 7.2-6.3-4.8-6.3 4.8 2.3-7.2-6-4.6h7.6z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Sumba</h3>
+                        <p class="feature-description">Travel dan wisata di Sumba, Lebih cantik dari pada New Zealand!</p>
+                    </div>
+                </div>
         </article>
+        <div class="closing">
+                <h1>Tunggu Apalagi, Segera Hubungi Kami!</h1>
+                <div>
+                <p class="kata2">Segera book seat anda agar tidak kehabisan karena antrian panjang banget</p>
+                </div>
+            <div class="action">
+                <button>Call to Action</button>
+            </div>
+        </div>
     </main>
-
+    <br>
+    <hr>
     <footer>
         <span>Made by Ridwanul Fadli</span>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
