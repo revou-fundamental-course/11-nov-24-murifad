@@ -1,0 +1,30 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+.main-logo {
+    margin-top: 0;
+}
+a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
+    color: black;
+
+}
+.hello {
+    justify-content: center;
+    text-align: center;
+}
+.main-article {
+    display: flex;
+    justify-content: space-evenly;
+}
+.second-article {
+    text-align: center;
+    display:flex;
+    justify-content: center;
+}
+footer {
+    text-align: center;
+}
